@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  
   
   <title>Frontend Mentor | Intro component with sign up form</title>
 
@@ -16,22 +20,34 @@
 </head>
 <body>
 
-  Learn to code by watching others
+  <section class="main">
+    <section class="text"> 
+      <h1>Learn to code by watching others</h1> 
 
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </section>
 
-  Try it free 7 days then $20/mo. thereafter
+    <section class="form">
+      <div class="free">
+        <h2>Try it free 7 days then $20/mo. thereafter</h2> 
+      </div>
 
-  First Name 
-  Last Name 
-  Email Address
-  Password
+      <div class="login">
+        <input type="text" name="firstName" id="firstName"> First Name 
+        <input type="text" name="lastName" id="lastName"> Last Name 
+        <input type="email" name="email" id="email"> Email Address
+        <input type="password" name="password" id="password"> Password
 
-  Claim your free trial 
+        <button>Claim your free trial</button>  
 
-  By clicking the button, you are agreeing to our Terms and Services
-  
+        <p>By clicking the button, you are agreeing to our <span>Terms and Services</span> </p> 
+      </div>
+    </section>
+  </section>
+
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
