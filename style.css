@@ -39,11 +39,12 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-right: 30px;
+  padding-left: 50px;
 }
 
 .text > h1 {
   color: white;
-  font-size: 43px;
+  font-size: 50px;
   line-height: 1.1;
 }
 
@@ -63,16 +64,16 @@ body {
 
 .free {
   background-color: var(--Blue);
-  border-radius: 5px;
+  border-radius: 10px;
   width: 500px;
-  height: 40px;
+  height: 50px;
   box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.329);
 }
 
 .free > h2 {
   font-size: 15px;
   text-align: center;
-  margin-top: 9px;
+  margin-top: 13px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.76);
 }
@@ -85,8 +86,43 @@ body {
   display: flex;
   flex-direction: column;
   background-color: white;
-  margin-top: 30px;
-  padding: 20px;
+  margin-top: 20px;
+  padding: 30px;
   width: 500px;
   border-radius: 10px;
+}
+
+.login > input {
+  margin-bottom: 24px;
+  height: 45px;
+  border: 1px #dedede solid;
+  border-radius: 5px;
+  padding-left: 30px;
+  outline-color: var(--Blue);
+  font-weight: 600;
+}
+
+.login > button {
+  padding: 14px;
+  background-color: var(--Green);
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0px 4px 1px 0px hsla(154, 59%, 51%, 0.63);
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+}
+
+.login > p {
+  font-size: 11px;
+  color: rgba(167, 158, 158, 0.781);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login > p > span {
+  color: red;
 }
